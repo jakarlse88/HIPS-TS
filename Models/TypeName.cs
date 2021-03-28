@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-#nullable disable
+﻿#nullable disable
 
 namespace HIPS_TS.Models
 {
@@ -10,6 +7,6 @@ namespace HIPS_TS.Models
         public int NameId { get; set; }
         public int TypeId { get; set; }
 
-        public virtual Type Type { get; set; }
+        public virtual TypeEntity Type { get; set; }
     }
 }
